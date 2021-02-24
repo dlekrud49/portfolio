@@ -1,0 +1,400 @@
+/* style.css */
+@font-face {
+    font-family: 'SDSamliphopangche_Outline';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/SDSamliphopangche_Outline.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+
+ul { list-style-type: none;}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 18px;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    /* outline:  1px solid red; */
+}
+#works .container .tab-group button {
+    border: none;
+    background: #a97b7b;
+    color: #fff;
+    
+    
+    
+
+}
+.left {
+    width: calc(8 * 1200px / 12);
+    /*outline: 1px solid green;*/
+    float: left;
+
+  }
+
+  .right {
+    width: calc(4 * 1200px / 12);
+    /*outline: 1px solid green;*/
+    float: left;
+  }
+
+  .left > a {
+    float: left;
+    /* outline: 1px solid #333; */
+  }
+
+  .left a  img, .right a img {
+    float: left;
+    width: 100%;
+    /* outline: 1px solid #333; */
+  }
+  .container1 {
+    width: 1200px;
+    margin: 0 auto;
+    /* outline:  1px solid red; */
+}
+.left1 {
+    width: calc(2 * 1200px / 2);
+    /* outline: 1px solid green; */
+    float: left;
+
+  }
+  .right1 {
+    width: calc(2 * 1200px / 2);
+    /* outline: 4px solid red; */
+    float: left;
+    
+  }
+
+  
+
+#main_header {
+    position: fixed;
+    width: 100%;
+    background: #a97b7b;
+    height: 80px;
+    z-index: 999;
+    border: 1px solid #fff;
+}
+
+#main_header .container {
+    position: relative;
+}
+
+#main_header h1 {
+    position: absolute;
+    left: -380px; top: 20px;
+}
+#main_header h1 > a {
+    color: #fff;
+
+}
+
+#gnb {
+    position: absolute;
+    right: 0; top: 25px;
+}
+
+#gnb a {
+    color: #fff;
+}
+
+#gnb > ul > li {
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+#gnb > ul > li > a {
+    display: block;
+
+}
+
+#gnb > ul > li > a:hover {
+    border-bottom: 4px solid #fff;
+
+}
+.action {
+    border-bottom: 4px solid #fff;
+}
+.box50 {
+    background: #a97b7b;
+    position: absolute;
+    width: 900px;
+    height: 70px;
+    left: 685px;
+    top: 523px;
+}
+.box51 {
+    background: #fff;
+    position: absolute;
+    width: 150px;
+    height: 10px;
+    right: 215px;
+    top: 350px;
+    z-index: 999;
+    /* border: 2px solid blue; */
+}
+.box52 {
+    background: #fff;
+    position: absolute;
+    width: 400px;
+    height: 10px;
+    right: 195px;
+    top: 580px;
+    z-index: 999;
+    /* border: 2px solid blue; */
+}
+.me {
+    text-align: center;
+    margin-right: 200px;
+    padding-bottom: 10px;
+    color: black;
+}
+.main5 {
+    color: white;
+    /*border: 2px solid red;*/
+    margin: 20px;
+    text-align: center;
+    position: absolute;
+    left: 70px;
+    top: 150px;
+    font-size: 66px;
+    font-family: 'SDSamliphopangche_Outline', sans-serif;
+    color: rgba(255,255,255,0.5);
+    /* z-index: 999; */
+}
+.main6 {
+    color: white;
+    /* border: 2px solid red; */
+    text-align: center;
+    position: absolute;
+    left: 20px;
+    top: 250px;
+    font-family: 'SDSamliphopangche_Outline', sans-serif;
+    z-index: 997;
+    width: 200px;
+    height: 50px;
+}
+#about .container h2 {
+    font-size: 48px;
+    
+}
+p {
+    text-align: center;
+    /* border: 2px solid red; */
+    /* padding-top: 10px; */
+    font-size: 23px;
+    
+}
+.skill {
+    font-size: 50px;
+    text-align: center;
+    color: black;
+}
+#visual {
+    background: #ccc;
+    width: 1920px;
+    height: 100vh;
+    background: url(../images/main_visual2.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.works {
+    background: #ccc;
+    width: 1920px;
+    height: 100vh;
+    background: url(../images/works1.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    z-index: 999;
+    
+}
+#visual .container {
+    position: relative;
+    height: 100vh;
+}
+
+#visual .title-group {
+    position: absolute;
+    border-radius: 50%;
+    bottom: 40%;
+    left: 50%;
+    /* background: #a97b7b; */
+    color: #fff;
+    width: 1000px;
+    text-transform: uppercase;
+    padding: 20px;
+    letter-spacing: 0.2em;
+}
+
+#visual .title-group h2 span{
+    font-size: 74px;
+}
+
+#about {
+    color: #fff;
+    padding: 200px;
+    padding-right: 50px;
+    padding-bottom: 140px;
+    height: 970px;
+    background: #a97b7b;
+}
+
+#contact99 {
+    color: #fff;
+    padding: 200px;
+    padding-right: 50px;
+    padding-bottom: 140px;
+    height: 970px;
+    background-color: rgba(169,123,123,0.8);
+}
+.name {
+    font-size: 32px;
+    text-align: left;
+}
+#about h2,
+#works h2 {
+    font-size: 48px;
+    margin-bottom: 50px;
+
+}
+
+#about .photo > img {
+    box-shadow: -50px -50px 0 #202020;
+}
+
+#about .row {
+    overflow: visible;
+}
+
+#works {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #fff;
+    text-align: center;
+}
+
+#works .list li {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+#works .list img {
+    width: 100%;
+    display: block;
+}
+
+.tab-group button {
+    padding: 10px 20px;
+    margin-left: 10px; margin-right: 10px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.picture55 > img {
+    width: 1400px;
+    height: 750px;
+    position: fixed;
+    top: 160px;
+    left: 255px;
+}
+
+.abc > h2 {
+    color: black;
+    position: fixed;
+    top: 300px;
+    left: 50px;
+}
+.abc > h2 {
+    left: 450px;
+    font-size: 55px;
+    font-family: 'SDSamliphopangche_Outline', sans-serif;
+}
+.box57 {
+    background: #a97b7b;
+    position: absolute;
+    width: 350px;
+    height: 60px;
+    left: 500px;
+    top: 320px;
+}
+.sns {
+    position: absolute;
+    bottom: 550px;
+    width: 500px;
+    left: 500px;
+    top: 550px;
+
+}
+
+.sns li {
+    float: left;
+}
+
+.abc .sns .mar {
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.abc .two {
+    top: 625px;
+
+}
+.footer{
+    position: absolute;
+    display: inline-block;
+    margin-top: 510px;
+    margin-left: 500px;
+    z-index: 999;
+    /*border: 2px solid red;*/
+    bottom: 150px;
+}
+.footer li {
+    display: inline-block;
+}
+.workbac {
+    position: relative;
+    height: 700px;
+    width: 1920px;
+
+}
+.history {
+    position: absolute;
+    bottom: 380px;
+    right: 860px;
+    text-align: center;
+    color: #fff;
+}
+.history > h2 {
+    font-family: 'SDSamliphopangche_Outline', sans-serif;
+    font-size: 70px;
+}
+.menu {
+    position: absolute;
+    right: 200px;
+    top: 70px;
+    /*border: 2px solid red;*/
+}
+.menu1 {
+    position: absolute;
+    right: 150px;
+    top: 700px;
+    /*border: 2px solid red;*/
+}
+.img1 {
+    width: 400px;
+    height: 400px;
+}
